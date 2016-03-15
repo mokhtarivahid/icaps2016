@@ -1,0 +1,95 @@
+%% problem-serve01      (1st run)
+
+Goal: -[at(guest4,sittingareasouthtable2),hasplacingarearight(sittingareasouthtable2,placingareasouthrighttable2),on(mug3,placingareasouthrighttable2)]
+true
+Total branches:1130
+Total traversed nodes:321
+[Task] [Args] [Time] [Nodes] [Memory] [Length] [Plan]
+serve_coffee [mug3,guest4,counter1] 36.021 321 25049064 17
+(move_torso torso1 torsoupposture torsoupposture0 torsodownposture torsodownposture84998) 
+(tuck_arms armunnamedposture armunnamedposture armunnamedposture0 armunnamedposture1 armtuckedposture armtuckedposture armtuckedposture85020 armtuckedposture85021) 
+(move_base floorareatamsrestaurant1 premanipulationareaeastcounter1) 
+(move_base_blind_to_ma premanipulationareaeastcounter1 manipulationareaeastcounter1) 
+(move_torso torso1 torsodownposture torsodownposture84998 torsoupposture torsoupposture85273) 
+(tuck_arms armtuckedposture armtuckedposture armtuckedposture85020 armtuckedposture85021 armuntuckedposture armuntuckedposture armuntuckedposture85326 armuntuckedposture85327) 
+(move_arm_to_side leftarm1 armuntuckedposture armuntuckedposture85326 armtosideposture85750) 
+(pick_up_object mug3 leftarm1) 
+(move_base_blind_to_pma manipulationareaeastcounter1 premanipulationareaeastcounter1) 
+(move_torso torso1 torsoupposture torsoupposture85273 torsomiddleposture torsomiddleposture88067) 
+(move_arms_to_carryposture armtosideposture armuntuckedposture armtosideposture85750 armuntuckedposture85327 armcarryposture88077 armcarryposture88078) 
+(move_base premanipulationareaeastcounter1 premanipulationareaeasttable2) 
+(move_base_blind_to_ma premanipulationareaeasttable2 manipulationareaeasttable2) 
+(move_torso torso1 torsomiddleposture torsomiddleposture88067 torsoupposture torsoupposture88323) 
+(move_arm_to_side leftarm1 armcarryposture armcarryposture88077 armtosideposture88334) 
+(place_object mug3 leftarm1 placingareasouthrighttable2) 
+(move_base_blind_to_pma manipulationareaeasttable2 premanipulationareaeasttable2) 
+
+% test compiled 36.28 sec, -480,656 bytes
+true.
+
+?- 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% problem-serve02      (1st run)
+
+Goal: -[at(guest1,sittingareawesttable1),hasplacingarearight(sittingareawesttable1,placingareawestrighttable1),on(mug1,placingareawestrighttable1)]
+true
+Total branches:661
+Total traversed nodes:188
+[Task] [Args] [Time] [Nodes] [Memory] [Length] [Plan]
+serve_coffee [mug1,guest1,counter1] 17.380 188 25213520 15
+(move_base floorareatamsrestaurant1 premanipulationareaeastcounter1) 
+(move_base_blind_to_ma premanipulationareaeastcounter1 manipulationareaeastcounter1) 
+(move_torso torso1 torsodownposture torsodownposture0 torsoupposture torsoupposture89387) 
+(tuck_arms armtuckedposture armtuckedposture armtuckedposture0 armtuckedposture1 armuntuckedposture armuntuckedposture armuntuckedposture89401 armuntuckedposture89402) 
+(move_arm_to_side leftarm1 armuntuckedposture armuntuckedposture89401 armtosideposture89591) 
+(pick_up_object mug1 leftarm1) 
+(move_base_blind_to_pma manipulationareaeastcounter1 premanipulationareaeastcounter1) 
+(move_torso torso1 torsoupposture torsoupposture89387 torsomiddleposture torsomiddleposture90693) 
+(move_arms_to_carryposture armtosideposture armuntuckedposture armtosideposture89591 armuntuckedposture89402 armcarryposture90703 armcarryposture90704) 
+(move_base premanipulationareaeastcounter1 premanipulationareasouthtable1) 
+(move_base_blind_to_ma premanipulationareasouthtable1 manipulationareasouthtable1) 
+(move_torso torso1 torsomiddleposture torsomiddleposture90693 torsoupposture torsoupposture90949) 
+(move_arm_to_side leftarm1 armcarryposture armcarryposture90703 armtosideposture90960) 
+(place_object mug1 leftarm1 placingareawestrighttable1) 
+(move_base_blind_to_pma manipulationareasouthtable1 premanipulationareasouthtable1) 
+
+% test compiled 17.47 sec, 312,088 bytes
+true.
+
+?- 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% problem-serve03      (1st run)
+
+Goal: -[at(guest2,sittingareaeasttable1),hasplacingarearight(sittingareaeasttable1,placingareaeastrighttable1),on(mug2,placingareaeastrighttable1)]
+true
+Total branches:834
+Total traversed nodes:233
+[Task] [Args] [Time] [Nodes] [Memory] [Length] [Plan]
+serve_coffee [mug2,guest2,counter1] 24.040 233 14801904 16
+(tuck_arms armunnamedposture armunnamedposture armunnamedposture0 armunnamedposture1 armtuckedposture armtuckedposture armtuckedposture91981 armtuckedposture91982) 
+(move_base floorareatamsrestaurant1 premanipulationareaeastcounter1) 
+(move_base_blind_to_ma premanipulationareaeastcounter1 manipulationareaeastcounter1) 
+(move_torso torso1 torsodownposture torsodownposture0 torsoupposture torsoupposture92104) 
+(tuck_arms armtuckedposture armtuckedposture armtuckedposture91981 armtuckedposture91982 armuntuckedposture armuntuckedposture armuntuckedposture92131 armuntuckedposture92132) 
+(move_arm_to_side leftarm1 armuntuckedposture armuntuckedposture92131 armtosideposture92399) 
+(pick_up_object mug2 leftarm1) 
+(move_base_blind_to_pma manipulationareaeastcounter1 premanipulationareaeastcounter1) 
+(move_torso torso1 torsoupposture torsoupposture92104 torsomiddleposture torsomiddleposture93906) 
+(move_arms_to_carryposture armtosideposture armuntuckedposture armtosideposture92399 armuntuckedposture92132 armcarryposture93916 armcarryposture93917) 
+(move_base premanipulationareaeastcounter1 premanipulationareanorthtable1) 
+(move_base_blind_to_ma premanipulationareanorthtable1 manipulationareanorthtable1) 
+(move_torso torso1 torsomiddleposture torsomiddleposture93906 torsoupposture torsoupposture94162) 
+(move_arm_to_side leftarm1 armcarryposture armcarryposture93916 armtosideposture94173) 
+(place_object mug2 leftarm1 placingareaeastrighttable1) 
+(move_base_blind_to_pma manipulationareanorthtable1 premanipulationareanorthtable1) 
+
+% test compiled 24.19 sec, 345,944 bytes
+true.
+
+?- 

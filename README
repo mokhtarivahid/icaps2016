@@ -1,0 +1,25 @@
+Supplemental materials for the ICAPS 2016
+
+This repository contains some examples and instances for the RACE project 
+(http://project-race.eu/) represented in the proposed Experience-Based Planning Domains (EBPDs):
+
+1) an application domain for the RACE project (race_domain.pddl)
+2) some robot activity experiences (race_activity_experiences.pddl)
+3) some learned activity schemata from experiences (race_activity_schemata.pddl)
+4) task problems used to evaluate the performance of the approach over the 
+   learned activity schemata and the plan solutions generated for these problems 
+   (problems directory)
+5) some examples of the plan solutions generated for a serve coffee scenario 
+   to show the differences between the generated plan solutions and original 
+   experience (i.e., in terms of the different plan lengths, different sequence 
+   of actions, and different objects)
+
+
+Following links also show the performance of this system in a real robot PR2 
+in serve a coffee task:
+
+1) A video to show how to instruct and teach a task to the robot and how to 
+   conceptualize this task:     https://youtu.be/5Z6PJX6Ucfg
+
+2) A video to show the performance of the system over the learned activity schema:
+   https://youtu.be/mjrP3hiMRnw

@@ -1,0 +1,95 @@
+%% problem-serve01      (1st run)
+
+Goal: -[hasplacingarea(counter1,placingareaeastrightcounter1),on(mug1,placingareaeastrightcounter1)]
+true
+Total branches:705
+Total traversed nodes:224
+[Task] [Args] [Time] [Nodes] [Memory] [Length] [Plan]
+clear_table [mug1,table1,counter1] 18.370 224 22566736 15
+(move_base floorareatamsrestaurant1 premanipulationareanorthtable1) 
+(move_base_blind_to_ma premanipulationareanorthtable1 manipulationareanorthtable1) 
+(move_torso torso1 torsodownposture torsodownposture0 torsoupposture torsoupposture44545) 
+(tuck_arms armtuckedposture armtuckedposture armtuckedposture0 armtuckedposture1 armuntuckedposture armuntuckedposture armuntuckedposture44559 armuntuckedposture44560) 
+(move_arm_to_side leftarm1 armuntuckedposture armuntuckedposture44559 armtosideposture44944) 
+(pick_up_object mug1 leftarm1) 
+(move_base_blind_to_pma manipulationareanorthtable1 premanipulationareanorthtable1) 
+(move_torso torso1 torsoupposture torsoupposture44545 torsomiddleposture torsomiddleposture46905) 
+(move_arms_to_carryposture armtosideposture armuntuckedposture armtosideposture44944 armuntuckedposture44560 armcarryposture46915 armcarryposture46916) 
+(move_base premanipulationareanorthtable1 premanipulationareaeastcounter1) 
+(move_base_blind_to_ma premanipulationareaeastcounter1 manipulationareaeastcounter1) 
+(move_torso torso1 torsomiddleposture torsomiddleposture46905 torsoupposture torsoupposture47161) 
+(move_arm_to_side leftarm1 armcarryposture armcarryposture46915 armtosideposture47172) 
+(place_object mug1 leftarm1 placingareaeastrightcounter1) 
+(move_base_blind_to_pma manipulationareaeastcounter1 premanipulationareaeastcounter1) 
+
+% test compiled 18.45 sec, 329,616 bytes
+true.
+
+?- 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% problem-serve02      (1st run)
+
+Goal: -[hasplacingarea(counter1,placingareaeastrightcounter1),on(mug3,placingareaeastrightcounter1)]
+true
+Total branches:1078
+Total traversed nodes:318
+[Task] [Args] [Time] [Nodes] [Memory] [Length] [Plan]
+clear_table [mug3,table2,counter1] 33.450 318 25277856 17
+(move_torso torso1 torsoupposture torsoupposture0 torsodownposture torsodownposture47412) 
+(tuck_arms armunnamedposture armunnamedposture armunnamedposture0 armunnamedposture1 armtuckedposture armtuckedposture armtuckedposture47434 armtuckedposture47435) 
+(move_base floorareatamsrestaurant1 premanipulationareaeasttable2) 
+(move_base_blind_to_ma premanipulationareaeasttable2 manipulationareaeasttable2) 
+(move_torso torso1 torsodownposture torsodownposture47412 torsoupposture torsoupposture47791) 
+(tuck_arms armtuckedposture armtuckedposture armtuckedposture47434 armtuckedposture47435 armuntuckedposture armuntuckedposture armuntuckedposture47805 armuntuckedposture47806) 
+(move_arm_to_side leftarm1 armuntuckedposture armuntuckedposture47805 armtosideposture48359) 
+(pick_up_object mug3 leftarm1) 
+(move_base_blind_to_pma manipulationareaeasttable2 premanipulationareaeasttable2) 
+(move_torso torso1 torsoupposture torsoupposture47791 torsomiddleposture torsomiddleposture50859) 
+(move_arms_to_carryposture armtosideposture armuntuckedposture armtosideposture48359 armuntuckedposture47806 armcarryposture50869 armcarryposture50870) 
+(move_base premanipulationareaeasttable2 premanipulationareaeastcounter1) 
+(move_base_blind_to_ma premanipulationareaeastcounter1 manipulationareaeastcounter1) 
+(move_torso torso1 torsomiddleposture torsomiddleposture50859 torsoupposture torsoupposture51115) 
+(move_arm_to_side leftarm1 armcarryposture armcarryposture50869 armtosideposture51156) 
+(place_object mug3 leftarm1 placingareaeastrightcounter1) 
+(move_base_blind_to_pma manipulationareaeastcounter1 premanipulationareaeastcounter1) 
+
+% test compiled 33.61 sec, -239,128 bytes
+true.
+
+?- 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% problem-serve03      (1st run)
+
+Goal: -[hasplacingarea(counter1,placingareaeastrightcounter1),on(mug2,placingareaeastrightcounter1)]
+true
+Total branches:702
+Total traversed nodes:192
+[Task] [Args] [Time] [Nodes] [Memory] [Length] [Plan]
+clear_table [mug2,table2,counter1] 18.290 192 20443112 16
+(tuck_arms armunnamedposture armunnamedposture armunnamedposture0 armunnamedposture1 armtuckedposture armtuckedposture armtuckedposture69504 armtuckedposture69505) 
+(move_base floorareatamsrestaurant1 premanipulationareawesttable2) 
+(move_base_blind_to_ma premanipulationareawesttable2 manipulationareawesttable2) 
+(move_torso torso1 torsodownposture torsodownposture0 torsoupposture torsoupposture69627) 
+(tuck_arms armtuckedposture armtuckedposture armtuckedposture69504 armtuckedposture69505 armuntuckedposture armuntuckedposture armuntuckedposture69641 armuntuckedposture69642) 
+(move_arm_to_side leftarm1 armuntuckedposture armuntuckedposture69641 armtosideposture69909) 
+(pick_up_object mug2 leftarm1) 
+(move_base_blind_to_pma manipulationareawesttable2 premanipulationareawesttable2) 
+(move_torso torso1 torsoupposture torsoupposture69627 torsomiddleposture torsomiddleposture71441) 
+(move_arms_to_carryposture armtosideposture armuntuckedposture armtosideposture69909 armuntuckedposture69642 armcarryposture71451 armcarryposture71452) 
+(move_base premanipulationareawesttable2 premanipulationareaeastcounter1) 
+(move_base_blind_to_ma premanipulationareaeastcounter1 manipulationareaeastcounter1) 
+(move_torso torso1 torsomiddleposture torsomiddleposture71441 torsoupposture torsoupposture71697) 
+(move_arm_to_side leftarm1 armcarryposture armcarryposture71451 armtosideposture71723) 
+(place_object mug2 leftarm1 placingareaeastrightcounter1) 
+(move_base_blind_to_pma manipulationareaeastcounter1 premanipulationareaeastcounter1) 
+
+% test compiled 18.37 sec, 309,608 bytes
+true.
+
+?- 
